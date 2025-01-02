@@ -15,6 +15,7 @@ var maxSubArray = function(nums) {
             maxSum= Math.max(maxSum, currentSum);
         }
     return maxSum;
+    //https://leetcode.com/problems/maximum-subarray/
     //excalidraw: https://excalidraw.com/
 
     /*
