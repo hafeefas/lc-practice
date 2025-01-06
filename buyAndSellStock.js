@@ -12,7 +12,7 @@ var maxProfit = function(prices) {
             minSoFar = prices[i]
         }
         else {
-            maxSoFar = Math.max(prices[i] - minSoFar);
+            maxSoFar = Math.max(maxSoFar, prices[i] - minSoFar);
         }
     }
     return maxSoFar;
